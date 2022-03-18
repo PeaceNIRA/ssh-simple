@@ -13,10 +13,7 @@ if len( sys.argv ) < 2:
     quit()
 
 os.system( 'clear' )
-print(colored("""                        
-\  X  / _   _   _ )       (/    )_) ( _   _   _  _)_ _   _ _  
- \/ \/ (_) (_) (_( (_(    /)   /     ) ) (_( ) ) (_ (_) ) ) ) 
-                     _)                                       """, "red"))
+print(colored("""simple CNC ssh""", "red"))
     
 vulnlist = sys.argv[1]
 target = sys.argv[2]
